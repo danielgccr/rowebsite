@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+languageCode = 'es-ES'
+title = 'R'
+
+[[menus.main]]
+name = 'ABOUT'
+pageRef = '/about'
+weight = 20
+
+[[menus.main]]
+name = 'PORTFOLIO'
+pageRef = '/portfolio'
+weight = 30
+
+[[menus.main]]
+name = 'ARCHIVE'
+pageRef = '/posts'
+weight = 40
+
+[[menus.main]]
+name = 'CONTACT'
+pageRef = '/contact'
+weight = 50
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

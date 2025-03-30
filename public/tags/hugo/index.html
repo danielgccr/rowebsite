@@ -1,0 +1,53 @@
+<!doctype html>
+<html
+    lang="en-us"
+    dir="ltr"
+>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Hugo | R</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+    </head>
+    <body>
+        <div class="container">
+            <header><div id="logo"><a href="http://localhost:1313/">♯ R</a></div>
+
+  <nav>
+
+      <a href="/about/">ABOUT</a>
+
+      <a href="/portfolio/">PORTFOLIO</a>
+
+      <a href="/posts/">ARCHIVE</a>
+
+      <a>CONTACT</a>
+
+  </nav>
+
+</header>
+            <main>
+  <h1>Hugo</h1>
+  
+  
+    <h2><a href="/posts/genesis/">Genésis</a></h2>
+    <p>¿Cómo nació esta página?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site robledo <span style="color:#f92672">&amp;&amp;</span> cd $_
+</span></span><span style="display:flex;"><span>hugo new theme aesthetics
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;theme = &#34;aesthetics&#34;&#39;</span> &gt;&gt; hugo.toml
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>¡Y hala! Un sitio en funcionamiento mientras, por otro lado, iba editando el tema que generé en Zed. Cuando me di por satisfecho con esto, lo subí a Git y ahí, en Github Actions, me monté un autómata para subirlo a Neocities cada vez que escribiese algo y sincronizase esta página con mi repositorio remoto. ¿Cómo?</p>
+  
+</main>
+            <footer>Copyleft 2025, Robledo.
+</footer>
+        </div>
+    </body>
+</html>

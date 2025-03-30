@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on R</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on R</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genésis</title>
+      <link>http://localhost:1313/posts/genesis/</link>
+      <pubDate>Wed, 15 Jan 2025 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/genesis/</guid>
+      <description>&lt;p&gt;¿Cómo nació esta página?&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site robledo &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; cd $_&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new theme aesthetics&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;theme = &amp;#34;aesthetics&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; hugo.toml&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;¡Y hala! Un sitio en funcionamiento mientras, por otro lado, iba editando el tema que generé en Zed. Cuando me di por satisfecho con esto, lo subí a Git y ahí, en Github Actions, me monté un autómata para subirlo a Neocities cada vez que escribiese algo y sincronizase esta página con mi repositorio remoto. ¿Cómo?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
