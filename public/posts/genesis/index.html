@@ -45,8 +45,12 @@
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;theme = &#34;aesthetics&#34;&#39;</span> &gt;&gt; hugo.toml
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>hugo server
-</span></span></code></pre></div><p>¡Y hala! Un sitio en funcionamiento mientras, por otro lado, iba editando el tema que generé en Zed. Cuando me di por satisfecho con esto, lo subí a Git y ahí, en Github Actions, me monté un autómata para subirlo a Neocities cada vez que escribiese algo y sincronizase esta página con mi repositorio remoto. ¿Cómo?</p>
- 
+</span></span></code></pre></div><p>¡Y hala! Un sitio en funcionamiento mientras, por otro lado, iba editando el tema que generé en Zed. Cuando me di por satisfecho con esto, lo subí a Git y ahí, en Github Actions, me monté un autómata para subirlo a Neocities cada vez que escribiese algo y sincronizase esta página con mi repositorio remoto. ¿Cómo? Primero, de haber supuesto que estamos en Github, he creado un repositorio allí mismo. Luego, esta panoplia de comandos.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin git@github.com:<span style="color:#f92672">[</span>USERNAME<span style="color:#f92672">]</span>/<span style="color:#f92672">[</span>repo<span style="color:#f92672">]</span>.git
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;World&#34;</span>
+</span></span><span style="display:flex;"><span>git push --set-upstream origin main
+</span></span><span style="display:flex;"><span>git push . <span style="color:#75715e"># aviso</span>
+</span></span></code></pre></div> 
 <div>
     <div>
         Tags:
