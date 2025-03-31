@@ -1,8 +1,14 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
-{{ end }}
+<h1>Archive</h1>
+{{ range where .Site.RegularPages "Section" "posts" }}
+
+<article>
+    <div class="title">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        <div class="tagSet">
+            {{ partial "tags.html" (dict "taxonomy" "tags" "page" .) }}
+        </div>
+    </div>
+    <div class="date">{{ .Date.Format "2-01-2006" }}</div>
+</article>
+{{ end }} {{ end }}

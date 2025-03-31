@@ -13,8 +13,8 @@ pageRef = '/portfolio'
 weight = 30
 
 [[menus.main]]
-name = 'ARCHIVE'
-pageRef = '/posts'
+name = 'TAGS'
+pageRef = '/tags/'
 weight = 40
 
 [[menus.main]]

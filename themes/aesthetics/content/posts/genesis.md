@@ -24,3 +24,13 @@ git commit -m "World"
 git push --set-upstream origin main
 git push . # aviso
 ```
+
+Siempre que desee actualizar, ¡toma, jeroma!
+
+```bash
+git add . # staging, dude
+git commit -m "Updated anything"
+git push
+```
+
+El orden es sacrosanto. Y quedarnos en un solo repositorio, como supuesto para facilitarnos la vida. Escribir algo. Guardar. A la consola de comandos. Teclear magia. Boom.

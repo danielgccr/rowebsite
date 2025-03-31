@@ -1,0 +1,7 @@
+{{ define "main" }}
+<h1>Tag ocurrences</h1>
+{{ range .Data.Terms.ByCount }}
+<h4>
+    <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
+</h4>
+{{ end }} {{ end }}

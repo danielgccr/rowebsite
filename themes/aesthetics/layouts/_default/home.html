@@ -1,7 +1,10 @@
-{{ define "main" }} {{ range where .Site.RegularPages "Section" "posts" }}
+{{ define "main" }} {{ range where .Site.RegularPages "Section" "posts" | first
+10 }}
 
 <article>
     <div class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
     <div class="date">{{ .Date.Format "2-01-2006" }}</div>
 </article>
-{{ end }} {{ end }}
+{{ end }}
+<a href='{{ "Posts"|relURL }}'>More articles</a>
+{{ end }}
